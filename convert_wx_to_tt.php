@@ -68,11 +68,11 @@ class Convert_wx_to_tt
     /*
      * js文件：
      * 1、wx.替换为tt.
-     * .swan文件：
+     * .ttml文件：
+     * 直接替换wx:为tt:容易替换出错，故将标识字符串细化来进行替换
      * 1、.wxml替换为.ttml
      * 2、.wxss替换为.ttss
-     * ttml文件：
-     * 直接替换wx:为tt:容易替换出错，故将标识字符串细化来进行替换
+     *
      * 循环：
      * 3、wx:for替换为tt:for
      * 4、wx:key替换为tt:key
